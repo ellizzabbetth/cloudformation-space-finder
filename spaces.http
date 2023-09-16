@@ -18,3 +18,5 @@ content-type: application/json
     "location": "Paris2"
 }
 ###
+
+DELETE https://jnaqmy83ib.execute-api.us-east-1.amazonaws.com/prod/spaces?id
