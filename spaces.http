@@ -20,7 +20,7 @@ content-type: application/json
 }
 ###
 
-DELETE https://jnaqmy83ib.execute-api.us-east-1.amazonaws.com/prod/spaces??id=c000461d-19df-493c-b629-e2a349540f6d
+DELETE https://jnaqmy83ib.execute-api.us-east-1.amazonaws.com/prod/spaces?id=c000461d-19df-493c-b629-e2a349540f6d
 ###
 
 

@@ -13,5 +13,5 @@ handler({
         location: 'London updated'
     })
 } as any, {} as any).then(result =>  {
-    console.log(result)
+    console.log(result);
 });

@@ -73,7 +73,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
      },
-     "S3Key": "227cacc9c526c570db7194011bac00428eceae4e89e57706e3902eda8bcde4e6.zip"
+     "S3Key": "d0f314dd644d473ce89e605e258bfb63e863655534439682842ad4810ab53088.zip"
     },
     "Environment": {
      "Variables": {
@@ -98,7 +98,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "LambdaStack/SpacesLambda/Resource",
-    "aws:asset:path": "asset.227cacc9c526c570db7194011bac00428eceae4e89e57706e3902eda8bcde4e6",
+    "aws:asset:path": "asset.d0f314dd644d473ce89e605e258bfb63e863655534439682842ad4810ab53088",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }
