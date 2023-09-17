@@ -102,7 +102,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/90782e12146a94ac4d50a39df5937c2662c5265a21fa7c584618937eb37e60df.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/7706c2c857983b3d37d57f1a562abc633616e5ccd143845b62be42663c5732b1.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -186,7 +186,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c36738eb850cde8e4659306e9cc53f6dbf850e6ba6c16e052883e017dc0442b5.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/d462827a160de04180a1973398e082ae19aaf0a6cfc9b09c1deab84bbf278133.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -224,7 +224,7 @@
         "/ApiStack/SpacesApi/Deployment/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SpacesApiDeploymentE5EF4C151a5f20901fe9fa7df4b32463ff981ba0"
+            "data": "SpacesApiDeploymentE5EF4C156cee21f0ce5b4f7e8a5a1ceccb83d720"
           }
         ],
         "/ApiStack/SpacesApi/DeploymentStage.prod/Resource": [
@@ -279,6 +279,42 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "SpacesApispacesPOST2152C014"
+          }
+        ],
+        "/ApiStack/SpacesApi/Default/spaces/PUT/ApiPermission.ApiStackSpacesApiD768BC5B.PUT..spaces": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesApispacesPUTApiPermissionApiStackSpacesApiD768BC5BPUTspacesF3334AB2"
+          }
+        ],
+        "/ApiStack/SpacesApi/Default/spaces/PUT/ApiPermission.Test.ApiStackSpacesApiD768BC5B.PUT..spaces": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesApispacesPUTApiPermissionTestApiStackSpacesApiD768BC5BPUTspaces4D069FD5"
+          }
+        ],
+        "/ApiStack/SpacesApi/Default/spaces/PUT/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesApispacesPUT61C34EC7"
+          }
+        ],
+        "/ApiStack/SpacesApi/Default/spaces/DELETE/ApiPermission.ApiStackSpacesApiD768BC5B.DELETE..spaces": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesApispacesDELETEApiPermissionApiStackSpacesApiD768BC5BDELETEspacesF88A99F3"
+          }
+        ],
+        "/ApiStack/SpacesApi/Default/spaces/DELETE/ApiPermission.Test.ApiStackSpacesApiD768BC5B.DELETE..spaces": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesApispacesDELETEApiPermissionTestApiStackSpacesApiD768BC5BDELETEspacesCEB7937B"
+          }
+        ],
+        "/ApiStack/SpacesApi/Default/spaces/DELETE/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesApispacesDELETEE9D6E062"
           }
         ],
         "/ApiStack/CDKMetadata/Default": [

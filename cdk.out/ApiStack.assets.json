@@ -1,7 +1,7 @@
 {
   "version": "34.0.0",
   "files": {
-    "c36738eb850cde8e4659306e9cc53f6dbf850e6ba6c16e052883e017dc0442b5": {
+    "d462827a160de04180a1973398e082ae19aaf0a6cfc9b09c1deab84bbf278133": {
       "source": {
         "path": "ApiStack.template.json",
         "packaging": "file"
@@ -9,7 +9,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "c36738eb850cde8e4659306e9cc53f6dbf850e6ba6c16e052883e017dc0442b5.json",
+          "objectKey": "d462827a160de04180a1973398e082ae19aaf0a6cfc9b09c1deab84bbf278133.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }

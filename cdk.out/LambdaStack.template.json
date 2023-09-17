@@ -40,7 +40,13 @@
     "PolicyDocument": {
      "Statement": [
       {
-       "Action": "dynamodb:PutItem",
+       "Action": [
+        "dynamodb:PutItem",
+        "dynamodb:Scan",
+        "dynamodb:GetItem",
+        "dynamodb:UpdateItem",
+        "dynamodb:DeleteItem"
+       ],
        "Effect": "Allow",
        "Resource": {
         "Fn::ImportValue": "DataStack:ExportsOutputFnGetAttSpacesTable8A997355Arn242927FE"
@@ -67,7 +73,7 @@
      "S3Bucket": {
       "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
      },
-     "S3Key": "e25ae24ee704b9a471a0a2f31aeb6ea4260a6ebe955a10dba864564448b91b21.zip"
+     "S3Key": "227cacc9c526c570db7194011bac00428eceae4e89e57706e3902eda8bcde4e6.zip"
     },
     "Environment": {
      "Variables": {
@@ -92,7 +98,7 @@
    ],
    "Metadata": {
     "aws:cdk:path": "LambdaStack/SpacesLambda/Resource",
-    "aws:asset:path": "asset.e25ae24ee704b9a471a0a2f31aeb6ea4260a6ebe955a10dba864564448b91b21",
+    "aws:asset:path": "asset.227cacc9c526c570db7194011bac00428eceae4e89e57706e3902eda8bcde4e6",
     "aws:asset:is-bundled": true,
     "aws:asset:property": "Code"
    }

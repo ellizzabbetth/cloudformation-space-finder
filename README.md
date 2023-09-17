@@ -6,3 +6,6 @@ Marshall Data
 Debugger
 
 ts-node test/launcher.ts
+
+
+cdk deploy --all
